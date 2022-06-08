@@ -60,7 +60,7 @@ The results of the T-test for the suspension coils for Lot 2 shows that they are
 
 ![Susp_Coil_Lot3_Samp_ttest](https://user-images.githubusercontent.com/95712234/172530944-ef3f120d-d449-4057-b93b-16321dfbc7cb.png)
 
-The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough at 0.0417 to reject the null hypothesis. Further evaluation analysis of Lot 3 may be needed as the potential problematic lot.
+The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough at 0.0417 to reject the null hypothesis. Further evaluation analysis of Lot 3 may be needed as the potential problematic lot causing the production troubles.
 
 # Deliverable 4:
 ## Study Design: MechaCar vs. Competition
