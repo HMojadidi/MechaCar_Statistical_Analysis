@@ -23,7 +23,7 @@ In this project, I will:
 
 * Per the results, the most significant variables in our dataset which display a non-random effect on the mpg of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables againsts figures for mpg resulted in p-values of 2.60x10^-12 and 5.21x10^-8 respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the mpg.
 
-* The slope of the linear model can not be considered to be zero, as the p-value of 5.35x10^-11, indicated by the orange arrow above, is lower than even an extreme level of significance, and thus the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
+* The slope of the linear model can not be considered to be zero, as the p-value of 5.35e-11, indicated by the orange arrow above, is lower than even an extreme level of significance, and thus the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
 
 * This model predicts the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149 indicates that the model is 71% accurate. There are still unconsidered factors in this model.
 
@@ -32,6 +32,8 @@ In this project, I will:
 
 ![Susp_Coil_Total_Summary](https://user-images.githubusercontent.com/95712234/172527699-6f86ddf7-0fe1-4d37-bf83-8a559c40956d.png)
 ![Susp_Coil_Lot_Summary](https://user-images.githubusercontent.com/95712234/172527718-851c78fe-e136-494c-8c78-3ba60f2f5b2c.png)
+
+While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 
 
 
