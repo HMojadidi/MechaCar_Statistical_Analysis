@@ -62,4 +62,25 @@ The results of the T-test for the suspension coils for Lot 2 shows that they are
 
 The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) to reject the null hypothesis. This lot may need to be further evaluated.
 
+# Deliverable 4:
+## Study Design: MechaCar vs. Competition
+
+In a world of rising fuel prices, global warming and a desire for budget efficiency, consumers are interested to know the fuel efficiency of a vehicle as part of their purchase decision. They will be looking to purchase a car who gives the most bang for the buck.
+
+### Metric to test:
+
+To find answers for ths test, we should evaluate MechaCar's fuel efficiency and compare it to the various competitor vehicles' fuel efficiency.
+
+### Null and Alternate Hypothesis:
+
+Ho: MechaCar prototypes' fuel efficiency is similar to competitor's vehicles in the same vehicle class.
+Ha: MechaCar prototypes' fuel efficiency is statistically above or below that of vehicles in the same class.
+
+### Statistical Test:
+
+The two-sample t-tests would be ideal.
+
+### Data Needed:
+
+The test would need fuel efficiency data from the MechaCar Prototypes as well as from all major competitor vehicles. 
 
