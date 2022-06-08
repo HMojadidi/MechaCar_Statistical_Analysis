@@ -74,6 +74,7 @@ To find answers for ths test, we should evaluate MechaCar's fuel efficiency and 
 ### Null and Alternate Hypothesis:
 
 Ho: MechaCar prototypes' fuel efficiency is similar to competitor's vehicles in the same vehicle class.
+
 Ha: MechaCar prototypes' fuel efficiency is statistically above or below that of vehicles in the same class.
 
 ### Statistical Test:
