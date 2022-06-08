@@ -23,7 +23,7 @@ In this project, I will:
 
 ![mpg_lin_reg_summary](https://user-images.githubusercontent.com/95712234/172521407-36bb666b-22e5-4298-af20-99077ceb8e69.png)
 
-* Per the results, the most significant variables in our dataset which display a non-random effect on the mpg of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables againsts figures for mpg resulted in p-values of 2.60x10^-12 and 5.21x10^-8 respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the mpg.
+* Per the results, the most significant variables in our dataset which display a non-random effect on the mpg of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables againsts figures for mpg resulted in p-values of 2.60e-12 and 5.21e-8 respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the mpg.
 
 * The slope of the linear model can not be considered to be zero, as the p-value of 5.35e-11, indicated by the orange arrow above, is lower than even an extreme level of significance, and thus the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
 
