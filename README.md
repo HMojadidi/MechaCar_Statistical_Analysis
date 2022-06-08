@@ -25,7 +25,7 @@ In this project, I will:
 
 * Per the results, the most significant variables in our dataset which display a non-random effect on the mpg of the MechaCar are the Vehicle Length and the Ground Clearance. The linear regression model run on these variables againsts figures for mpg resulted in p-values of 2.60e-12 and 5.21e-8 respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the mpg.
 
-* The slope of the linear model can not be considered to be zero, as the p-value of 5.35e-11, indicated by the orange arrow above, is lower than even an extreme level of significance, and thus the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
+* The slope of the linear model can not be considered to be zero, as the p-value of 5.35e-11 is very lower and thus the null hypothesis must be rejected. This means that there is a possible correlation relationship between our variables and the miles per gallon.
 
 * This model predicts the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149 indicates that the model is 71% accurate. There are still unconsidered factors in this model.
 
@@ -47,20 +47,20 @@ The Suspension Coil's PSI continuous variable across all manufacturing lots:
 
 ![Susp_Coil_One_Sample_ttest](https://user-images.githubusercontent.com/95712234/172530770-4364a0b9-64a6-46af-8806-aa0414558103.png)
 
-The results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.06028) to reject the null hypothesis.
+The results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value at 0.06028 is not low enough to reject the null hypothesis.
 
 ![Susp_Coil_Lot1_Samp_ttest](https://user-images.githubusercontent.com/95712234/172530905-8365536f-2654-4044-ae3f-5150f6e82aa9.png)
 
-The results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis.
+The results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough at 1 to reject the null hypothesis.
 
 ![Susp_Coil_Lot2_Samp_ttest](https://user-images.githubusercontent.com/95712234/172530926-08772240-c959-4c8e-a299-a2227ccae9d1.png)
 
-The results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
+The results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough at 0.6072 to reject the null hypothesis.
 
 
 ![Susp_Coil_Lot3_Samp_ttest](https://user-images.githubusercontent.com/95712234/172530944-ef3f120d-d449-4057-b93b-16321dfbc7cb.png)
 
-The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) to reject the null hypothesis. This lot may need to be further evaluated.
+The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough at 0.0417 to reject the null hypothesis. Further evaluation analysis of Lot 3 may be needed as the potential problematic lot.
 
 # Deliverable 4:
 ## Study Design: MechaCar vs. Competition
