@@ -51,15 +51,15 @@ The results of the T-test for the suspension coils across all manufacturing lots
 
 ![Susp_Coil_Lot1_Samp_ttest](https://user-images.githubusercontent.com/95712234/172530905-8365536f-2654-4044-ae3f-5150f6e82aa9.png)
 
-The results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
+The results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis.
 
 ![Susp_Coil_Lot2_Samp_ttest](https://user-images.githubusercontent.com/95712234/172530926-08772240-c959-4c8e-a299-a2227ccae9d1.png)
 
-The results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
+The results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
 
 
 ![Susp_Coil_Lot3_Samp_ttest](https://user-images.githubusercontent.com/95712234/172530944-ef3f120d-d449-4057-b93b-16321dfbc7cb.png)
 
-The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may need to be further evaluated.
+The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) to reject the null hypothesis. This lot may need to be further evaluated.
 
 
